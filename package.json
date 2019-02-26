@@ -1,0 +1,39 @@
+{
+  "name": "phaser-tile-map",
+  "version": "1.0.0",
+  "description": "learning project to figure out how to load tile maps into a phaser game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jufebrown/phaser-tile-map.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jufebrown/phaser-tile-map/issues"
+  },
+  "homepage": "https://github.com/Jufebrown/phaser-tile-map#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "phaser": "^3.16.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.0",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "file-loader": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
