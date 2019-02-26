@@ -2,9 +2,10 @@
   "name": "phaser-tile-map",
   "version": "1.0.0",
   "description": "learning project to figure out how to load tile maps into a phaser game",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
