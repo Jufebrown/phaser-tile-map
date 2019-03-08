@@ -5,8 +5,8 @@ export default class GameScene extends Phaser.Scene {
     });
   }
 
-  preload() {
-    this.load.image('blackGreyTilemap', '../assets/tilesets/black-grey-tilemap.png');
+  create() {
+    this.load.image('bgMap', '../assets/tilesets/black-grey-tilemap.png');
 
     const level = [
       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -16,7 +16,7 @@ export default class GameScene extends Phaser.Scene {
       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     ];
 
-    this.make.tilemap({ data: level, tileWidth: 32, tileHeight: 32 });
-    this.addTilesetImage('blackGreyTilemap');
+    this.map = this.make.tilemap({ data: level, tilewidth: 32, tileheight: 32 });
+    this.tileset = this.map.addTilesetImage('bgMap');
   }
 }
